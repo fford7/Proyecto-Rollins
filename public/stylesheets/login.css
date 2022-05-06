@@ -1,0 +1,34 @@
+
+html,body{
+    height: 100%;
+}
+
+.form-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    background-color: #e2e2e2;
+    
+}
+button{
+    margin-top: 10px;
+    width: 40%;
+}
+.Titulorojo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.login{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#formulario {
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}

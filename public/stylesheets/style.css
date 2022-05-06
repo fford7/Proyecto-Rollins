@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#Titulo{
+  color: azure;
+  font-family: 'Dancing Script', cursive;
+  font-size:65px;
+}
+#item {
+  color: azure;
+  font-family: 'Catamaran', sans-serif;
+  font-size:20px;
+}
+#formatoImagen{
+  width: 100px;
+  height: 500px;
+  margin-top: 40px;
+  
+}
+#formatoCarousel{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+
+}
+#tituloCarousel{
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid rgb(56, 47, 47);
+}
+#marco {
+  border: 2px solid black;   
+  text-align: center;
+  margin: 5px 40px;
+}
+.bg1{
+  background: linear-gradient(rgb(33, 33, 36), white);
+}
+
+.card-prod{
+  color:white;
+  transition: 1s;
+  }
+  .card-prod:hover{
+    background: rgba(240, 134, 63, 0.472) !important;
+  }
+
+#img {
+  
+  height:auto;
+  max-width: 480px;
+}  
+
+#success {
+  text-align: center;
+}

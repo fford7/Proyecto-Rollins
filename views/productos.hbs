@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        {{#each result}}
+        <div class="col-sm-3" >
+            <div>
+                <a href="/productos/{{descripcion}}" >
+                <span class="card mb-4 card-prod shadow-sm bg-dark">
+                    <img src="{{foto}}" alt="" id="img"><br>
+                    <div class="card-body">
+                    {{descripcion}} <br>
+                    $ {{precio}} <br>     
+                    </div>
+                </span>
+                </a>
+            </div><br>
+            
+        </div>
+        {{/each}}
+    </div>
+</div>

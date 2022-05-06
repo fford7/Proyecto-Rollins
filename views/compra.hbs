@@ -1,0 +1,38 @@
+
+<div class="container-fluid bg-secondary p-2 mb-5 text-white fw-bold">
+    <div class="container">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb  ">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+                <a class="text-white" href="/">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="text-white" href="/productos">Productos</a>
+            </li>
+            
+        </ol>
+    </nav>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        {{#each resultado}}
+        <div class="col-8">
+            <img src="{{foto}}" alt="" id="img">
+        </div>
+        
+        <div class="col-8">
+            <h2>{{descripcion}}</h2>
+            <hr>
+            
+            <h3 class="bg-secondary">$ {{precio}}.-</h3>
+            <button type="button" class="btn btn-secondary">Comprar</button>
+        </div>
+        {{/each}}
+    </div>
+
+</div>
+
+
+
