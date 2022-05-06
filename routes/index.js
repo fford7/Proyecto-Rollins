@@ -7,7 +7,7 @@ var sqlCon = require('../utils/connection')
 /* GET home page. */
 router.get('/', function(req, res) {
     
-    res.render('index.hbs', { title: 'Express' });
+    res.render('index.hbs', { title: 'Rollins Music' });
     
   
   });
